@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="/bootstrap-5.2.0-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="/bootstrap-5.2.0-dist/js/bootstrap.js">
+    <link rel="shortcut icon" href="../Imagenes/favicon.png" type="image/x-icon">
+    <title>Login | Disney+</title>
+</head>
+<body>
+    <main style="background: #1a1d29;">
+        <form action="../php/login_usuario_be.php" method="POST">
+            <section class="LoginForm">
+                <div class="Container1">
+                    <div class="Container1__logo"></div>
+                </div>
+                <div class="Container2">
+                    <div class="Container2__Text">Log in</div>
+                </div>
+                <div class="Container3">
+                    <div class="Container3__input">
+                        <input type="email" name="mail" class="InputPassword" size="25" required placeholder="   Correo electrónico">
+                    </div>
+                </div>
+                <div class="Container3">
+                    <div class="Container3__input">
+                        <input type="password" name="password" class="InputPassword" size="25" required placeholder="   Contraseña">
+                    </div>
+                </div>
+                <input type="submit" value="CONTINUE" class="Container4">
+                <div class="Container5">
+                    <span>First time on Disney+?</span><a href="../RegisterDisney/Register.html"> to subscribe</a>
+                </div>
+            </section>
+        </form>
+        
+    </main>
+    <footer class="footer">
+        <div class="Container6__logo">
+            <img src="../Imagenes/logo.svg" width="94" height="38">
+        </div>
+        <div class="FooterInfo">
+            <a href="https://www.disneyplus.com/es-419/legal/política-de-privacidad" class="etoBKr">Privacy Policy</a>
+            <a href="https://www.disneyplus.com/es-419/legal/acuerdo-de-suscripción" class="etoBKr">subscription agreement</a>
+            <a href="https://help.disneyplus.com/csp" class="etoBKr">Help</a>
+            <a href="https://help.disneyplus.com/csp?id=csp_article_content&article=devices-supported" class="etoBKr">Compatible devices</a>
+            <a href="https://help.disneyplus.com/csp?id=csp_article_content&article=introduction" class="etoBKr">About Disney+</a>
+            <a href="https://preferences-mgr.trustarc.com/?pid=disney01&aid=disneyplusemea01&type=disneyplusemea" class="etoBKr">personalized advertising</a>
+            <p class="etoBKr">Disney+ is a paid subscription service, its content is subject to availability. The Disney+ service is marketed by The Walk Disney Company (Argentina) S.A, Tucumán 1, piso 4° (C1040AAA) Ciudad Autónoma de Buenos Aires, Argentina and CUIT number 30-63984459-1.</p>
+        </div>
+        <div class="FooterInfo">
+            <p class="etoBKr">Disney. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

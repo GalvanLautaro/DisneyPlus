@@ -1,0 +1,227 @@
+* {
+    font-family: 'Avenir Roman';
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: 'Avenir Roman';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Avenir Roman'), url('../Fuentes/avenir_roman_12.woff') format('woff');
+}
+
+.Main {
+    background: #1a1d29;
+}
+
+.LoginForm {
+    width: 70%;
+    margin: auto;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.Container1 {
+    width: 100%;
+    height: 15%;
+    margin-top: 3rem;
+    justify-content: center;
+    display: flex;
+}
+
+.Container1__logo {
+    background-image: url("../DibujoLogoDisney/logo.1a56f51c764022ee769c91d894d44326.svg");
+    background-repeat: no-repeat;
+    width: 40%;
+    height: 100%;
+}
+
+.Container1__login {
+    color: #c6c6c6;
+    padding-top: 1rem;
+    text-decoration: none;
+}
+
+.Container2 {
+    width: 100%;
+    height: 8%;
+    margin-top: 1.5rem;
+}
+
+.Container2__Text {
+    color: #f9f9f9;
+    width: 100%;
+    height: 100%;
+    font-size: 1.19rem;
+    margin-top: .2rem;
+    font-weight: 400;
+}
+
+.Container2 > p {
+    color: #cacaca;
+    font-size: .7rem;
+}
+
+.Container3 {
+    width: 100%;
+    height: 8%;
+}
+
+.Container3__input {
+    width: 100%;
+    height: 100%;
+}
+
+.InputMail {
+    background: #30333e;
+    color: #ffffff;
+    height: 3rem;
+    font-size: 1rem;
+    border-radius: .3rem;
+    width: 100%;
+    border: none;
+}
+
+.Container4 {
+    width: 100%;
+    margin-top: 3rem;
+}
+
+.Container4 > h5 {
+    display: inline-block;
+    width: 80%;
+    color: #949599;
+    margin-left: .7rem;
+}
+
+.Container4 > input {
+    display: inline-block;
+    height: 100%;
+}
+
+.Container5 {
+    width: 100%;
+    height: 28%;
+    background: #30333e;
+    margin-top: 1.7rem;
+    border-radius: .5rem;
+}
+
+.Container5 > p {
+    color: #c4c4c4;
+    font-size: .65rem;
+    padding: .4rem;
+    height: 60%;
+    overflow-y: scroll;
+}
+
+.Container5 > p > a {
+    color: #61adea;
+}
+
+.Container5B {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 40%;
+}
+
+.Container5B > button {
+    background: #0072d2;
+    color: #eef3f7;
+    width: 90%;
+    height: 2rem;
+    border-radius: .5rem;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.footer {
+    background: #0e0b14;
+    max-height: max-content;
+    padding-bottom: 1rem;
+}
+
+.Container6 {
+    width: 80%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.Container6__logo {
+    background-repeat: no-repeat;
+    max-height: max-content;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 1.15rem;
+}
+
+.FooterInfo {
+    max-width: 500px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    flex-flow: row wrap;
+}
+
+.etoBKr {
+    margin: 11px 5px 10px;
+    text-decoration: none;
+    color: #c2c1c2;
+    font-size: 12px;
+    letter-spacing: -.1px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+    .LoginForm {
+        width: 40%;
+    }
+
+    .Container6 {
+        height: 25%;
+    }
+
+    .FooterInfo > a, .FooterInfo2 > p {
+        font-size: 0.8rem;
+    }
+
+    .FooterInfo {
+        justify-content: space-evenly;
+    }
+
+    .FooterInfo2 > p {
+        margin-left: 6rem;
+        margin-right: 6rem;
+    }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 2000px) {
+    .LoginForm {
+        width: 30%;
+    }
+
+    .FooterInfo > a, .FooterInfo2 > p {
+        font-size: .9rem;
+    }
+
+    .FooterInfo2 > p {
+        margin-left: 20rem;
+        margin-right: 20rem;
+    }
+
+    .Container5 > p {
+        font-size: .9rem;
+    }
+
+    .Container5B {
+        align-items: center;
+    }
+}
