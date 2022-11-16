@@ -3,7 +3,6 @@
 
     if(isset($_SESSION['usuario'])) {
         header("location: bienvenida.php");
-        
     }
 ?>
 
@@ -12,7 +11,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width,initial-scale=1">
-        <link rel="stylesheet" href="../styleindex/style.css">
+        <link rel="stylesheet" href="style.css">
         <link rel="icon" type="image/x-icon" href="../images/favicon.png">
         <title>Disney+ Day | The Best Stories in One Place</title>
     </head>
